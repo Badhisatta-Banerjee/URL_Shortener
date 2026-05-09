@@ -1,0 +1,26 @@
+{
+    "name": "url_sortener",
+    "version": "1.0.0",
+    "description": "project",
+    "homepage": "https://github.com/Badhisatta-Banerjee/URL_Shortener#readme",
+    "bugs": {
+        "url": "https://github.com/Badhisatta-Banerjee/URL_Shortener/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Badhisatta-Banerjee/URL_Shortener.git"
+    },
+    "license": "ISC",
+    "author": "Badhisatta Banerjee",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --watch index.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "mongoose": "^9.6.1",
+        "nanoid": "^5.1.11"
+    }
+}
